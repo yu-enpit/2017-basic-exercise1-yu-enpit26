@@ -34,7 +34,7 @@ git clone https://github.com/アカウント名/課題名-アカウント名.git
 ### 4. プログラム修正
 1. ローカルにクローンしたリポジトリ「課題名-アカウント名」をAndroid Studioで開きます。  
     1-1. 「Open an existing Android Studio project」を選択します。
-    ![キャプチャ](img/image12.jpg)
+    ![キャプチャ](img/image12.jpg)  
     1-2. 先ほどローカルに保存したリポジトリを選択し、「OK」を押下します。      
 2. 「activity_main.xml」を開きます。
 ![キャプチャ](img/image14.jpg)
