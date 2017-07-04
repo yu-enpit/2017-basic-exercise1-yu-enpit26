@@ -32,19 +32,27 @@ git clone https://github.com/アカウント名/課題名-アカウント名.git
 5. 自分のアカウント上のリポジトリ「課題名-アカウント名」がローカルに保存されます。
 
 ### 4. プログラム修正
-1. ローカルにクローンしたリポジトリ「課題名-アカウント名」をAndroid Studioで開きます。
+1. ローカルにクローンしたリポジトリ「課題名-アカウント名」をAndroid Studioで開きます。  
+    1-1. 「Open an existing Android Studio project」を選択します。
+    ![キャプチャ](img/image12.jpg)
+    1-2. 先ほどローカルに保存したリポジトリを選択し、「OK」を押下します。      
 2. 「activity_main.xml」を開きます。
+![キャプチャ](img/image14.jpg)
 3. DesignペインでTextView「Hello World!」を選択します。
 4. Propertiesペインでtextを「Hello enPiT」に修正します。
+![キャプチャ](img/image15.jpg)
 
 ### 5. Commit（コミット）
 1. ツールウィンドウ「Version Control」を表示します。
 2. Defaultを右クリック > Commit Changes... をクリックします。
 3. Commit Messageにコメント「TextViewのtextを修正。」を入力し、「Commit」ボタンをクリックします。
+![キャプチャ](img/image17.jpg)
 
 ### 6. Push（プッシュ）
 1. パンくずリストからプロジェクトのルートフォルダ「課題名-アカウント名」を右クリック > Git > Repository > Push をクリックします。
+![キャプチャ](img/image18.jpg)
 2. 「Push Commits」ウィンドウが表示されます。「Push」ボタンをクリックします。
+![キャプチャ](img/image19.jpg)
 3. ローカルで行ったプログラム修正が自分のアカウント上のリポジトリ「課題名-アカウント名」に反映されます。
 
 
@@ -53,7 +61,7 @@ git clone https://github.com/アカウント名/課題名-アカウント名.git
 2. 「New pull request」ボタンをクリックします。
 ![キャプチャ](img/image9.jpeg)
 3. 「Comparing changes」画面で変更内容を確認し、「Create pull request」ボタンをクリックします。
-![キャプチャ](img/image10.jpg)
+![キャプチャ](img/image10.jpeg)
 4. コメントを入力し、「Create pull request」ボタンをクリックします。
 ![キャプチャ](img/image11.jpeg)
 5. 組織アカウント「yu-enpit」上のFork元のリポジトリ「課題名-アカウント名」に Pull Request が送信されます。
